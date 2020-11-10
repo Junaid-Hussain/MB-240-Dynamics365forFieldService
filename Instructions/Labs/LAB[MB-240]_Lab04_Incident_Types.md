@@ -25,11 +25,13 @@ Exercise 1 – Create an Incident Type called Printer Installation
 
 ### Task 1 –Service Task Types to be used with Incidents:
 
-1.  Using the **Sitemap**, select **Settings
+1. In your Dynamics 365 organization, select the down arrow next to the Dynamics 365 text, select **Field Service**
 
-2.  Select  **Service Task Types** under **Work Order** settings
+2.  Using the **Sitemap**, select **Settings
 
-3.  Click the **+New** button and enter **[your prefix ex. mollyc]+ Clean Printer Assembly** for the Name.
+2.  Select **Service Task Types** under **Work Order** settings
+
+3.  Click the **+ New** button and enter **[your prefix ex. mollyc]+ Clean Printer Assembly** for the Name.
 
 4.  Select **30 Minutes** for the **Estimated Duration.**
 
@@ -53,8 +55,7 @@ Exercise 1 – Create an Incident Type called Printer Installation
 
 ### Task 3 –Create a Service Printer Incident Type
 
-1.  Using the **Sitemap**, select **Incident Types** under **Work Order**
-    settings.
+1.  Using the **Sitemap**, select **Incident Types** under **Work Order** settings.
 
 2.  Click the **New** button and enter **[your prefix ex. mollyc]+ Service Printer** for the Name.
 
@@ -68,23 +69,19 @@ Exercise 1 – Create an Incident Type called Printer Installation
 
 2.  Select the **Service Task** Tab, click the ellipsis and select **+New Incident Type Service Tasks** button. (If pop ups are blocked, you may need to unblock them)
 
-3.  Enter **[your prefix ex. mollyc]+ Clean Printer Assembly** for the **Name**, select **[your prefix ex. mollyc]+ Clean Printer
-    Assembly** as the task type, ensure 30 minutes is set for **Estimated
-    Duration**.
+3.  Enter **[your prefix ex. mollyc]+ Clean Printer Assembly** for the **Name**, select **[your prefix ex. mollyc]+ Clean Printer Assembly** as the task type, ensure 30 minutes is set for **Estimated Duration**.
 
 4.  Click **Save and Close.**
 
 5.  Click the **+New Incident Type Service Tasks** button again.
 
-6.  Enter **[your prefix ex. mollyc]+ Replace Toner** for the **Name**, select **[your prefix ex. mollyc]+ Replace Toner** as the
-    task type, ensure 15 minutes is set for **Estimated Duration**.
+6.  Enter **[your prefix ex. mollyc]+ Replace Toner** for the **Name**, select **[your prefix ex. mollyc]+ Replace Toner** as the task type, ensure 15 minutes is set for **Estimated Duration**.
 
 7.  Click **Save and Close.**
 
 8.  Click the **Add Incident Type Service Tasks** button one last time.
 
-9.  Enter **[your prefix ex. mollyc]+ Finial Test** for the **Name**, select **[your prefix ex. mollyc]+ Finial Test** as the task
-    type, ensure 15 minutes is set for **Estimated Duration**.
+9.  Enter **[your prefix ex. mollyc]+ Finial Test** for the **Name**, select **[your prefix ex. mollyc]+ Finial Test** as the task type, ensure 15 minutes is set for **Estimated Duration**.
 
 10. Click **Save and Close.**
 
