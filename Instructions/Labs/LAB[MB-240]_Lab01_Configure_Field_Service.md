@@ -34,7 +34,7 @@ but additional providers could be enabled.  We will be using Bing Maps. 
 
 2.  Click the **Site Map** icon in the bottom left corner to
     expand. Click on **Settings.**  From the menu that
-    appears, select **Administration**.   
+    appears, under **Scheduling** select **Administration**.   
 
 3.  Select **Scheduling Parameters**. 
 
@@ -151,7 +151,7 @@ Task 2 - Add Printer Products to a Price List
 
 1.  Using the **Sitemap**, select **Price Lists** under **General.**
 
-2.  Open the **Default Price List** (Note: Change the view to **All Price Lists** if it is not already showing)
+2.  Open the **Default Price List** (Note: Change the view to **All Price Lists** if it is not already showing) if not present then create a new price list by clicking the **+ New** button, Enter **Name:** *[your prefix ex. mollyc]+ default price list* and leave the **Currency** as default (US Dollar) and then click **Save and Close**.
 
 3.  Click **Activate** to activate the **Default Price List** if it is not already active.
 
