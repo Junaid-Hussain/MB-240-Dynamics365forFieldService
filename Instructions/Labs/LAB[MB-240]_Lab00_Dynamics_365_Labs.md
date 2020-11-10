@@ -47,10 +47,14 @@ Exercise 1 - Access the Dynamics 365 application
 
 ### Task 2 – Access the Dynamics 365 application
 
-1.  Expand the grid button at the top left of the screen, directly to the left of **Power Platform admin center.** Select **Dynamics 365.**
+1. Click on  the **Environment** button at the left of the screen, Select **+New**. 
 
-2.  Select the **Edit** button. You will open the Contoso environment in the **Power Platform admin center.**
+2. Enter [your prefix ex. mollyc]+ Practice for Name.
 
-4. From the list of available Dynamics 365 apps, select **[APPLICATION.]**
+4. Select Sandbox for Type, Region should be Default.
 
-5. Spend a few minutes exploring the application.
+5. Create a database for this environment : **Yes** . Click on Next.
+
+6. Scroll Down to **Enable Dynamic 365 Apps** , Select Yes . In Automatically deploy these Apps, select **Customer Service** 
+
+7. Click **Save**, Wait for few minutes to get Environment Ready.
