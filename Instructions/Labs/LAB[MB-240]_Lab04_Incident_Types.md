@@ -65,7 +65,7 @@ Exercise 1 – Create an Incident Type called Printer Installation
 
 -   Click **Default Work Order Type** and select  *[your prefix ex. mollyc]+ Service Call*.
 
-1.  Click **Save** to save the Incident type and leave it open.
+4.  Click **Save** to save the Incident type and leave it open.
 
 2.  Select the **Service Task** Tab, click the ellipsis and select **+New Incident Type Service Tasks** button. (If pop ups are blocked, you may need to unblock them)
 
