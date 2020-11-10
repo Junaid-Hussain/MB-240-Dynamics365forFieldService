@@ -19,138 +19,7 @@ application. You will be adding and configuring some products that can be
 installed and setting up skills and characteristics that will be used as part of
 the implementation.
 
-Exercise 1 - Create Field Service related products, and add to Price List 
-==============================
-
-Before you can define products associated with Agreements, they need to be added to the product catalog. In this exercise, you will be defining three new products:
-
--   A Remote Printer
-
--   Monthly Printer Maintenance
-
--   Printer Service Fee
-
-## Task 1 - Add a Printer Products
-
-Note: If you have already completed this step in a previous lab, skip to Exercise 3.
-
-1.  Using the **Sitemap**, select **Products** under **Settings.**
-
-2.  Click the **Add Product** to create a Product
-
-3.  Define the Details of the Product as noted below:
-
-	-   **Name:** [your prefix ex. mollyc]+ Remote Printer
-
-	-   **Product ID:** *[your prefix ex. mollyc]+ Print-Serv-1234*
-
-	-   **Unit Group:** *Default Unit*
-
-	-   **Default Unit:** *Primary Unit*
-
-	-   **Decimals Supported:** *2*
-
-4.  Select the **Field Service** tab, set the Field Service Product Type to
-    **Inventory**
-
-	-  Set the **Taxable** field to **No**
-
-	-  Save the product, and click **Publish**
-
-6.  Return to the Products page. Click the **Add Product** to create a Product
-
-7.  Define the Details of the Product as noted below:
-
-	-   **Name:** [your prefix ex. mollyc]+ Monthly Printer Maintenance
-
-	-   **Product ID:** *[your prefix ex. mollyc]+ Print-Maint4*
-
-	-   **Unit Group:** *Default Unit*
-
-	-   **Default Unit:** *Primary Unit*
-
-	-   **Decimals Supported:** *2*
-
-8.  Select the **Field Service** tab, set the Field Service Product Type to
-    **Non-Inventory**
-
-9.  Set the **Taxable** field to **No**
-
-10.  Save the product, and click **Publish**
-
-11.  Click the **Add Product** to create a Product
-
-12.  Define the Details of the Product as noted below:
-
-        -   **Name:** [your prefix ex. mollyc]+ Printer Service Fee
-
-        -   **Product ID:** *[your prefix ex. mollyc]+ Print-Service-Fee*
-
-        -   **Unit Group:** *Default Unit*
-
-        -   **Default Unit:** *Primary Unit*
-
-        -   **Decimals Supported:** *2*
-
-13.  Select the **Field Service** tab, set the Field Service Product Type to
-    **Service**
-
-14.  Set the **Taxable** field to **No**
-
-15.  Save the product, and click **Publish**
-
-## Task 2 - Add a Printer Products to a Price List
-
-1.  Using the **Sitemap**, select **Price Lists** under **Settings.**
-
-2.  Open an exisitng price list.
-
-3.  In the **Price List Items**, click the **+ Add** button to add a Price List
-    Line Item
-
-4.  Enter the following information:
-
-    - **Product:** [your prefix ex. mollyc]+ Remote Printer
-
-    - **Unit:** Primary Unit
-
-    - **Pricing Method:** Currency Amount
-
-    - **Amount:** $1000.00
-
-5.  In the **Price List Items**, click the **+ Add** button to add a Price List
-    Line Item
-
-6.  Enter the following information:
-
-    - **Product:** [your prefix ex. mollyc]+ Monthly Printer Maintenance
-
-    - **Unit:** Primary Unit
-
-    - **Pricing Method:** Currency Amount
-
-    - **Amount:** \$750.00
-
-7.  Click **Save and Close**
-
-8.  In the **Price List Items**, click the **+ Add** button to add a Price List
-    Line Item
-
-9.  Enter the following information:
-
-    - **Product:** [your prefix ex. mollyc]+ Printer Service Fee
-
-    - **Unit:** Primary Unit
-
-    - **Pricing Method:** Currency amount
-
-    - **Amount:** \$150.00
-
-10. Click **Save and Close**
-
-11. Close the price list
-
-Exercise 2 - Create an Agreement 
+Exercise 1 - Create an Agreement 
 ================================
 
 In this exercise you will be defining a preventative maintenance agreement that
@@ -161,8 +30,7 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
 1.  In Dynamics 365, navigate to **Field Service**
 
-2.  Using the Sitemap, select **Agreements** under the **Service Delivery**
-    heading.
+2.  Click the Site Map in the bottom left and select Service, select **Agreements** under the **Service Delivery** heading.
 
 3.  Click **New** from the Command Bar.
 
@@ -189,7 +57,7 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
     - **Auto Generate Work Order**: Yes
 
-    - **Work Order Type:** Preventative Maintenance
+    - **Work Order Type:** Service Call
 
     - **Auto Generate Booking**: No
 
@@ -211,7 +79,7 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
 4.  Under **Incidents,** click **New Agreement Booking Incident.**
 
-5.  Select **Install IOT** for Incident Type and click **Save & Close.**
+5.  Select **Service Printer** for Incident Type and click **Save & Close.**
 
 6.  On the Agreement Booking Setup Record, click the ellipsis and select **Booking Recurrence**.
 
@@ -234,7 +102,7 @@ be billed at the end of each month with a Monthly Printer Maintenance fee.
 
     - **Auto Generate Work Order**: Yes
 
-    - **Work Order Type:** Preventative Maintenance
+    - **Work Order Type:** Service Call
 
     - **Generate Work Order Days In Advance:** 5
 
