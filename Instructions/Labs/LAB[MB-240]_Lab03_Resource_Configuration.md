@@ -56,7 +56,7 @@ Task 1 - Create a Bookable Resource for your user record
 
 12. **Save** the bookable resource record and leave it open.
 
-12.Scroll down and locate the **Characteristics** sub-grid, ensure the view is **Active Bookable Resource Characteristics** and select **+ New Bookable Resource** 
+12. Scroll down and locate the **Characteristics** sub-grid, ensure the view is **Active Bookable Resource Characteristics** and select **+ New Bookable Resource** 
 
 13. Configure as follows:
 
@@ -68,9 +68,9 @@ Task 1 - Create a Bookable Resource for your user record
 
     - Click **Save and Close** on the characteristic record.
 
-13. Select **+New** Again
+14. Select **+New** Again
 
-14. Configure as follows:
+15. Configure as follows:
 
     - **Characteristic:** *[your prefix ex. mollyc]+ CISM*
 
@@ -80,9 +80,9 @@ Task 1 - Create a Bookable Resource for your user record
 
     - Click **Save and Close** on the characteristic record.
 
-15. Select **+New** Again
+16. Select **+New** Again
 
-16. Configure as follows:
+17. Configure as follows:
 
     - **Characteristic:** *[your prefix ex. mollyc]+ CISSP*
 
