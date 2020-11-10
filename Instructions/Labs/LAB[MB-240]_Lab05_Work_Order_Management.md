@@ -40,18 +40,18 @@ a new work order that we can schedule using the application.
 
     -   **Service Account:** *[your prefix ex. mollyc]+ Account*.  If not found, Click + New Account and enter: [your prefix ex. mollyc]+ Account
 
-    -   **Work Order Type:** *Inspection*
+    -   **Work Order Type:** *Service Call*
 
     -   **Taxable:** *No*
 
-    -   **Primary Incident Type:** *Install IOT*
+    -   **Primary Incident Type:** *Service Printer*
 
 5.  Click the Settings tab, and Configure as follows:
 
     -   **Priority:** *Moderate* (if necessary, create a new priority with the
         title Moderate and save and close)
 
-    -   **Service Territory:** *WA*
+    -   **Service Territory:** *West*
 
     -   **Time from Promised:** *Today \@ 1:00 PM*
 
