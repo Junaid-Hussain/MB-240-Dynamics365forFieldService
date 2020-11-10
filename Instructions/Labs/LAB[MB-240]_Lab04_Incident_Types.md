@@ -41,7 +41,7 @@ Exercise 1 – Create an Incident Type called Printer Installation
 
     1.  **[your prefix ex. mollyc]+ Replace Toner:** *Duration 15 Minutes*
 
-    2.  **[your prefix ex. mollyc]+ Finial Test:** *Duration 15 Minutes*
+    2.  **[your prefix ex. mollyc]+ Final Test:** *Duration 15 Minutes*
     
 ### Task 2 - Create a Service Call Work Order Type
 
