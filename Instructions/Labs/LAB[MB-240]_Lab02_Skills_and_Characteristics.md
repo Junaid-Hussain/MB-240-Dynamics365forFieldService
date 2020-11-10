@@ -69,6 +69,8 @@ different security clearance levels that can be applied.
 
 8.  Click the **Save** button to save the record and leave it open.
 
+9. Click on the **Related** tab and select **Rating Values**
+
 10. In the **Rating Values** section, select the ellipsis and select **+ New Rating Value** button.
 
 11. In the **Name** field, enter **[your prefix ex. mollyc]+ Level 1 Security**.
@@ -113,8 +115,26 @@ different security clearance levels that can be applied.
 
 29. Ensure the **Rating Model** is set to **[your prefix ex. mollyc]+ Security Level** and click the
     **Save and Close** button.
+    
+30. Select the **Add New Rating Value** button.
 
-30. Verify that the Security Level Model has 5 Security levels added to it.
+31. In the **Name** field, enter **[your prefix ex. mollyc]+ Proficient**.
+
+32. Set the **Value** field to **5**.
+
+33. Ensure the **Rating Model** is set to **[your prefix ex. mollyc]+ Security Level** and click the
+    **Save and Close** button.
+
+34. Select the **Add New Rating Value** button.
+
+35. In the **Name** field, enter **[your prefix ex. mollyc]+ Familiar**.
+
+36. Set the **Value** field to **4**.
+
+37. Ensure the **Rating Model** is set to **[your prefix ex. mollyc]+ Security Level** and click the
+    **Save and Close** button.
+
+38. Verify that the Security Level Model has 7 Security levels added to it.
 
 ## Task 2 - Define your Security Clearance Skill
 
