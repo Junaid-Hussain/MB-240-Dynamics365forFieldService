@@ -26,11 +26,15 @@ Exercise 1 – Resource Configuration
 Task 1 - Create a Bookable Resource for your user record
 ---------------------------------------------------------
 
-1.  Using the **Sitemap**, select **Resources**
+1. In your Dynamics 365 organization, select the down arrow next to the **Dynamics 365** text, select **Resource Scheduling**
 
-2.  Click **New** button to create a new **Bookable Resource**.
+2. Using the sitemap, select the **Settings**
+    
+3. Under **Resource**, select **Resources**
 
-3.  Configure the new **Bookable Resource** record as follows:
+4.  Click **New** button to create a new **Bookable Resource**.
+
+5.  Configure the new **Bookable Resource** record as follows:
 
     -   **Resource Type:** *User*
 
@@ -38,23 +42,23 @@ Task 1 - Create a Bookable Resource for your user record
 
     -   **Time Zone:** Leave the default value in the Time Zone Field.
 
-4.  Select the **Scheduling** tab.
+6.  Select the **Scheduling** tab.
 
-5.  Set the **Organizational Unit** field to **Seattle.**
+7.  Set the **Organizational Unit** field to **Seattle.** if not present then select **New Organizational Unit**, enter **Seattle** for name. Click on the **Scheduling** tab and enter 47.60620 for **Latitude** and 122.33210 for **longitude** and **Save and Close**.
 
-6.  In the **Start Location** field, select **Organizational Unit Address**.
+8.  In the **Start Location** field, select **Organizational Unit Address**.
 
-7.  In the **End Location** field, select **Organizational Unit Address**.
+9.  In the **End Location** field, select **Organizational Unit Address**.
 
-8.  Select the **Field Service** tab
+10.  Select the **Field Service** tab
 
-9.  Set the **Hourly Rate** field to **175**.
+11.  Set the **Hourly Rate** field to **175**.
 
-10. **Save** the bookable resource record and leave it open.
+12. **Save** the bookable resource record and leave it open.
 
-11. Locate the **Characteristics** sub-grid, ensure the view is **Active Bookable Resource Characteristics** and select **+New** (note: change the form view to **Information** by clicking the dropdown arrow.)
+12.Scroll down and locate the **Characteristics** sub-grid, ensure the view is **Active Bookable Resource Characteristics** and select **+ New Bookable Resource** 
 
-12. Configure as follows:
+13. Configure as follows:
 
     - **Characteristic:** *[your prefix ex. mollyc]+ Building Security*
 
@@ -120,11 +124,11 @@ Select **Resources** from the sitemap
 
 9. Select the **Related** tab.
 
-10. From the menu that appears, select **Resource Territories**.
+10. From the menu that appears,under **Related - Details**  select **Resource Territories**.
 
 11. Click the **+New Resource Territory** button.
 
-12. In the **Territory Lookup** field, select **WA**.
+12. In the **Territory Lookup** field, select *[your prefix ex. mollyc]+ West*.
 
 13. Select the **Save and Close** button.
 
