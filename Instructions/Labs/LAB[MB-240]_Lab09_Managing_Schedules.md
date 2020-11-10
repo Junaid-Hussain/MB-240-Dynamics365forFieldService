@@ -134,7 +134,7 @@ a new work order that we can schedule using the application.
 
     -   **Service Account:** *[your prefix ex. mollyc]+ Account* (should have been created earlier.  If not, create a new Service Account with name *[your prefix ex. mollyc]+ Account*)
 
-    -   **Work Order Type:** *Inspection*
+    -   **Work Order Type:** *Service Call*
 
     -   **Taxable:** *No*
 
@@ -142,7 +142,7 @@ a new work order that we can schedule using the application.
 
     -   **Priority:** *Moderate*
 
-    -   **Service Territory:** *WA*
+    -   **Service Territory:** *West*
 
     -   **Time from Promised:** *Today \@ 1:00 PM*
 
